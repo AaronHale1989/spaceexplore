@@ -1,0 +1,45 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+#wrapper {
+    width: 600px;
+    height: 360px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+canvas {
+	background-image:url("images/space.png");
+	position: absolute;
+    top: 100px;
+    left: 175px;
+    border: 1px solid black;
+    z-index: 1;
+    width: 600px;
+    height: 360px;
+}
+
+h1 {
+	position:absolute;
+	top:20px;
+	left:340px;
+	font-family:courier;
+}
+h3 {
+	position:absolute;
+	top:475px;
+	left:290px;
+	font-family:courier;
+
+}
+
+#breaker {
+	position:relative;
+	top:520px;
+	border-top:1px solid;
+}
+
+#breaker2 {
+	border-top:1px solid;
+}
